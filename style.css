@@ -1,0 +1,1429 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Arimo', sans-serif;
+    
+	font-size: 16px;
+    box-sizing: border-box;
+    
+	
+}
+
+*,
+*:after,
+*::before{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* portada */
+.portada{
+    height: 100vh;
+    background-image: url(img/reparacion-mantenimiento-servico-tecnico-lavadoras-en-Quito.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position-x: -200px;
+    
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+main{
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+.containernav{
+    display:none;
+}
+
+.containermovil{
+    display: grid;
+    background: white;
+    margin: 0 auto;
+
+}
+
+.containermovil img{
+    display: grid;
+    width: 60px;
+    margin-left: 20px;
+   
+    
+}
+
+.btnaki {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 2;
+ 
+
+}
+
+.containers{
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+    
+    
+}
+
+.containers2{
+    width: 100%;
+    scroll-snap-align: center;
+ 
+
+}
+
+
+.containers:nth-child(1) {
+    background: url(img/paginas-web-Quito.png);
+    background-size: cover;
+    transition: 1s ease-in-out 0s;
+    z-index: 1;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    /* background-position: bottom;
+    background-position-y: 350px;
+    background-position-x: -200px; */
+
+}
+
+
+
+
+.containernav img{
+    height:50px;
+    display: grid;
+}
+
+
+
+
+
+.tripimg{
+    animation: trip ease-in-out 4s ;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+    -webkit-animation: trip ease-in-out 4s ;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+    -moz-animation: trip ease-in-out 4s ;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+    -o-animation: trip ease-in-out 4s ;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+    -ms-animation: trip ease-in-out 4s ;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}/* mover los botones de izq a derecha */
+
+
+@keyframes trip {
+    0% {
+      transform:  translate(0px,0px)  ;
+    }
+    50% {
+      transform:  translate(5px,0px)  ;
+    }
+    100% {
+      transform:  translate(0px,0px)  ;
+    }
+  }
+
+  .containernav li{
+    list-style: none;
+
+  }
+
+.containernav li a{
+    text-decoration: none;
+    
+   
+    color: white;
+}
+
+.containernav nav ul{
+    display: grid;
+    width: 100%;
+    line-height: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.containernav nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.frasebtn {
+    height: 100%;
+    
+ 
+    align-content: start;
+    color: white;
+    
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+.frasebtn span{
+    font-size: 1em;
+    padding-left: 10px;
+   
+
+}
+
+.btnaki a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background: #25d366;
+    border-radius: 20px;
+    border: 1px solid #128C7E;
+    width: 250px;
+    text-align: center;
+    transition: 0.5s ease-out;
+    
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
+
+}
+
+.btnaki a:hover{
+    color: #25d366;
+    background: white;
+    font-weight: bold;
+
+}
+
+
+
+
+a.anav{
+    text-decoration: none;
+    margin: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    background-color: #128C7E;
+    border-radius: 16px;
+    border: 2px solid #25D366;
+    color: white;
+    margin: 0 auto;
+    padding: 0 10px;
+    line-height: 30px;
+    
+}
+
+a.anav:hover{    
+    background: #25D366;
+    
+
+}
+
+
+span.spanfrase {
+    font-size: 1.5em;
+    color: #1d9cd8;
+    font-weight: bold;
+    
+    padding-left: 10px;
+    margin-top: 20px;
+ 
+    
+}
+
+.spanfrase{
+    font-family: 'Arimo', sans-serif;
+     
+}
+
+.logomovil
+{
+	width: 100%;
+	margin: auto;
+}
+.logomovil img{
+	height: 100px;
+	
+	
+}
+
+
+/* slider servicios */
+
+
+
+.forw {
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,.2);
+    border-radius: 50%;
+    margin-top: 25%;
+    position: absolute;
+    display: flex;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.rewr{
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,.2);
+    border-radius: 50%;
+    margin-top: 25%;
+    position: absolute;
+    display: flex;
+
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+
+}
+
+.rewr span{
+    color: white;
+    font-size: 2.5em;
+    transition: 0.5s ease-out;
+
+}
+
+.forw span{
+    color:white;
+    font-size: 2.5em;
+    transition: 0.5s ease-out;
+
+}
+
+.forw:hover,.rewr:hover{
+    background:#ff9e00;
+    box-shadow: 7px 7px 20px -11px rgba(0,0,0,1);    
+
+}
+
+
+
+/* new slider */
+.contenedor-slider {
+    margin: auto;
+    /* width: 85%;
+    max-width: 900px; */
+    position: relative;
+    overflow: hidden;
+    /* width: 1024px; */
+    height: 100%;
+   
+  }
+  
+  .slider {
+    display: flex;
+    width: 500%;
+    height: 90%;
+  }
+  
+  .slider__section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    height: 100%;
+  }
+
+
+  
+  .slider__img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,.8);
+
+    
+    
+  }
+  
+  .btn-prev, .btn-next, .btn-prevm, .btn-nextm {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgba(255,255,255,.4);
+  }
+
+  
+  .btn-prev:hover, .btn-next:hover {
+    background: #1d9cd8;
+    color: white;
+  }
+  
+  .btn-prev, .btn-prevm {
+    left: 10px;
+  }
+  
+  .btn-next,.btn-nextm {
+    right: 10px;
+  }
+
+  .btnser{
+    background: rgba(255,255,255,.2);
+   
+}
+
+
+
+
+.mk-info {
+   
+    display: grid;
+    
+    justify-items: center;
+   
+    align-items: flex-end;
+    text-align: center;
+}
+
+.mk-info h1{
+    color: white;
+
+}
+
+.domi24{
+    font-size: 0.7em;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+.whataki{
+    display: block;
+}
+
+.whatakidiv{
+    display: grid;
+    align-items: flex-end;
+    justify-items: center;
+}
+
+/* boton  */
+
+.whataki {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background: #25d366;
+    border-radius: 20px;
+    border: 1px solid #128C7E;
+    width: 250px;
+    text-align: center;
+    transition: 0.5s ease-out;
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
+    margin-bottom: 10px;
+}
+
+.whataki:hover {
+    color: #25d366;
+    background: white;
+    font-weight: bold;
+}
+.containers2{
+    width: 100%;
+    scroll-snap-align: center;
+    height: 90%;
+ 
+
+}
+
+/* menu movil */
+
+/* menu */
+.menu {
+    border-radius: 50%;
+    background: #ffffff;
+    top: 10px;
+    /* box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF; */
+    cursor: pointer;
+    height: 50px;
+    position: fixed;
+    right: 3px;
+    width: 50px;
+    z-index: 1030;
+    filter: opacity(90%);
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* con js */
+.mostrarmenu2{
+	right: 0;
+	z-index: 1029;
+
+	
+}
+/*  */
+
+.menumovil2{
+	position: fixed;
+	
+	top: 0;
+	z-index: 25;
+	right: -100%;
+	background: rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+	
+	transition: .55s .1s cubic-bezier(0, 1.07, 0, 1.02);
+	
+
+
+}
+
+
+
+.menumovil2 .hul{
+	width: 75%;
+	height: 100%;
+	position: relative;
+	font-size: 1em;
+	background: linear-gradient(to bottom, rgb(255, 255, 255) 30%,rgba(255,255,255,.6) 100%);
+	float: right;
+	
+}
+
+.menumovil2 .hul .qe{
+	text-align: center;
+	margin-top:30px;
+	display: grid;
+	
+
+}
+
+
+.menumovil2 .hul li a{
+	color: #626262;
+	font-size: 1.5em;
+}
+
+
+
+
+.mostrarmenu2{
+	right: 0;
+	z-index: 1029;
+
+	
+}
+
+
+
+
+.logomovil
+{
+	width: 100%;
+	margin: auto;
+}
+.logomovil img{
+	height: 100px;
+	
+	
+}
+
+
+.logofinalm{
+	margin:30px auto 0 auto;
+	display: grid;
+	align-items: center;
+	grid-gap: 5px;
+
+
+}
+
+
+
+.logofinalm2 figure img{
+	
+	width: 90%;
+	margin: auto;
+	max-width: 360px;
+}
+
+.logofinalm a{
+	text-decoration: none;
+    font-style: italic;
+  
+    font-weight: bold;
+	font-family: Roboto;
+	font-size: 1.5em;
+
+
+}
+
+
+.logofinalm img{
+
+
+	width: 100px;
+	
+}
+
+
+
+.disenor a {
+    text-decoration: none;
+    color: #1d9cd8;
+}
+
+
+
+/* end menu slide */
+
+
+
+
+.hul {
+	display: grid;
+	grid-template-columns: auto;
+    position: fixed;
+
+    list-style: none;
+	font-size: 1.5em;
+	/* border-radius: 50%; */
+
+	z-index: 11;
+	width: 100%;
+    text-align: center;
+    align-content: center;
+	
+}
+
+
+
+.hul li{
+	margin: 0 auto;
+    width: 100%;
+    box-shadow: 10px 10px 9px -10px rgba(0,0,0,.5);
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 250px;
+    padding-bottom: 10px;
+	
+}
+
+.hul li a {
+
+    transition: all 300ms;
+	
+	text-decoration: none;
+ 
+}
+
+
+.hul li a:hover:before {
+    width: 110%;
+}
+
+
+
+
+.iconosocial a{
+	text-decoration: none;
+}
+
+.disenor {
+    margin-top: 30px;
+}
+
+
+
+.hamburger:before:hover{
+	width: 25px;
+    height: 3px;
+}
+
+.hamburger {
+    position: sticky;
+    /* top: 24px;
+    left: 15px; */
+    width: 20px;
+    height: 2px;
+    background: #1d9cd8;
+    /* display: block; */
+    /* transform-origin: center; */
+    transition: .5s ease-in-out;
+}
+
+
+.hamburger:after,
+.hamburger:before {
+    background: #1d9cd8;
+    content: "";
+    display: block;
+    transition: .5s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hamburger:before {
+    top: -8px;
+}
+
+.hamburger:after {
+    bottom: -6px;
+}
+
+
+/* end menumovil */
+
+
+/* servicios movil */
+/* movil servicios */
+
+.divportadam{
+	display: grid;
+	grid-template-columns: 75px auto;
+	overflow: hidden;
+}
+
+
+.servicios1{
+	
+	display: grid;
+}
+
+
+
+.galeriaentradas ul li a img{
+	max-width: 240px;
+	min-width: 160px;
+}
+
+
+.galeriaentradas ul{
+	width: 100%;
+
+    
+    height:300px;
+
+    overflow: hidden;
+}
+
+.galeriaentradas ul li a img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.galeriaentradas ul li a{
+	width: 100%;
+	
+}
+
+.galeriaentradas ul li{
+	width: 100%;
+	list-style: none;
+	
+}
+
+.galeriaentradas a.agale{
+
+
+    display: grid;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 70px;
+    width: 300px;
+    color: #626262;
+    grid-template-columns: 80% 20%;
+    text-transform: uppercase;
+    font-family:'Oswald', sans-serif;
+    font-size: 1.2em;
+
+	
+}
+
+
+
+.modalservicio{
+	display: none;
+}
+
+
+.modalservicio:target {
+	display: grid;
+	position: fixed;
+    background: rgba(0,0,0,.9);	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1100;
+	justify-items: center;
+    
+    align-items: center;
+}
+
+.modalservicio p{
+	color: white;
+	
+	font-size: 1em;
+	width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.modalservicio h3{
+	color: #009ece;
+	font-size: 1.5em;
+	text-align: center;
+	
+    text-shadow: 1px 2px #444;
+    margin-top: 40px;
+    text-transform: uppercase;
+
+}
+
+
+
+
+.imagen a{
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+	margin: auto;
+	cursor: pointer;
+}
+
+.imagen a:nth-child(2){
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img{
+    height: 230px;
+    border-radius: 20px;
+	
+}
+
+.imagen {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    
+}
+
+.cerrar{
+	margin-top: 20px;
+	position: absolute;
+    top: 0;
+    right: 20px;
+	
+}
+
+
+
+
+
+
+.imghide{
+	visibility: hidden;
+}
+
+
+
+
+.btnpruebas{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background: #25d366;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    transition: 0.5s ease-out;
+    margin-left: 10px;
+    border: none;
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
+}
+
+.btnpruebas:hover{
+    color: #25d366;
+   
+    font-weight: bold;
+    background: white;
+    
+}
+
+.btnpruebas a{
+    text-decoration: none;
+    color: white;
+}
+
+.cerrar{
+	margin-top: 5px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+	
+}
+
+
+.cerrar{
+	margin-top: 20px;
+	position: absolute;
+    top: 0;
+    right: 20px;
+	
+}
+
+
+
+
+.cerrar a{
+	
+    text-decoration: none;
+    border-radius: 50%;
+   
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    margin: auto;
+    font-size: 0.7em;
+    text-align: center;
+    display: block;
+    color: rgba(255,255,255,.3);
+}
+
+.icon-x:before {
+    content: "\ea0f";
+}
+
+
+::-webkit-input-placeholder { color: rgb(0, 0, 0, 30%); } 
+
+:-moz-placeholder { /* Firefox 18- */ color: rgb(0, 0, 0, 30%); } 
+
+::-moz-placeholder { /* Firefox 19+ */ color: rgb(0, 0, 0, 30%); } 
+
+:-ms-input-placeholder { color: rgb(0, 0, 0, 30%); }
+
+
+::-webkit-select-placeholder { color: rgb(0, 0, 0, 30%); } 
+
+
+span.icon-subm {
+    transform: rotate(180deg);
+    margin: auto;
+}
+
+.select {
+    padding-left: 10px;
+    border-left: 3px solid #1d9cd8;
+    font-weight: bold;
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,.8);
+    background: rgba(0,0,0,.04);
+
+}
+
+.servi {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.servispan1 {
+    font-size: 1.5em;
+    color: #1d9cd8;
+    font-weight: bold;
+}
+
+.servispan2 {
+    color: #626262;
+    font-size: 1em;
+}
+
+.entradasservicios {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cajah{
+    font-size: 2em;
+}
+
+.servih{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+/* end movil servicios */
+
+
+/* contador de clientes */
+.middle{
+    display: grid;
+     top: 50%;
+     width: 100%;
+   }
+   .counting-sec{
+     padding-bottom: 20px;
+     width: 100%;
+     /* background: linear-gradient(90deg,#3c6382,#82ccdd); */
+   }
+   .inner-width{
+   display: grid;
+     margin: auto;
+   
+   }
+   .col{
+   
+     text-align: center;
+    
+     color: #1d9cd8;
+     text-transform: uppercase;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     align-items: center;
+     
+       justify-items: center;
+   }
+   .col i{
+     font-size: 40px;
+     color: #333;
+   }
+   
+   .col img{
+     width: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     opacity: .4;
+   }
+   .num{
+     font-size: 40px;
+     margin: 20px 0;
+   }
+
+   .numb span {
+    color: #626262;
+}
+
+
+   .clientes{
+       width: 90%;
+       margin: 0 auto;
+   }
+
+   .servic{
+
+    padding-top: 20px;
+   }
+   /*end contador de clientes  */
+
+   /* servicio tecnico */
+   .servtec{
+       width: 90%;
+       margin: 0 auto;
+
+   }
+
+   .whataki2{
+    display: grid;
+    align-items: flex-end;
+    justify-items: center;
+   }
+
+   .btnst{
+    color: #e12327;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    border: 1px solid #e12327;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    transition: 0.5s ease-out;
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+   }
+
+   .servit{
+       margin-bottom: 20px;
+   }
+
+   /* end servico tecnico solicitud */
+
+   /* repuestos */
+   .servres{
+       width: 90%;
+       margin: 0 auto;
+
+   }
+
+   .servres1{
+       margin-bottom: 20px;
+   }
+   .servih2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+   }
+
+   .servauto{
+    width: 90%;
+    margin: 0 auto;
+
+   }
+
+   /* estilos botones slider marcas */
+
+   .btn-prevm:hover, .btn-nextm:hover {
+    background: #e12327;
+    color: white;
+}
+/* multimarcas */
+
+
+.multimarcas{
+    display: grid;
+    width: 90%;
+   
+    margin: 0 auto;
+}
+
+.containersa1{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+.containersa1 .slidera1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1100%;
+	height: 100%;
+	animation: animate 20s  infinite alternate ease-in-out;
+	
+	
+}
+
+.slidera1 {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.containersa1 .slidera1 .slide{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+
+}
+
+.containers1a .slider:hover{
+	animation-play-state: paused;
+	
+}
+.containers1a .slider1a .slide .caption{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	
+	box-sizing: border-box;
+	z-index: 9;
+}
+
+.caption img{
+	border-style: none;
+    
+    position: absolute;
+  
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+	z-index: 80;
+	display: grid;
+   
+  
+
+}
+.containers1a .slider1a .slide .caption a{
+	
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 1.2em;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+
+
+.caption a{
+	border-radius: 3px;
+	background:  linear-gradient(to bottom, #EDE7F3 0%,#4D148C 100%);
+	line-height: 35px;
+	width: 130px;
+	text-align: center;
+	z-index: 90;
+}
+
+.caption a:hover{
+	color: #FF6600;
+	transform: scale(1.2);
+	transition: 1s all;
+	transform-origin: center center;
+}
+
+
+
+@keyframes animate{
+	0% {
+		left: 0;
+    }
+	4.76%{
+		left: 0;
+	}
+	9.52%{
+		left: -100%;
+	}
+	14.29%{
+		left: -100%;
+	}
+	19.05%{
+		left: -200%;
+	}
+	23.81%{
+		left: -200%;
+	}
+	28.57%{
+		left: -300%;
+	}
+	33.33%{
+		left: -300%;
+	}
+	38.10%{
+		left: -400%;
+    }
+    42.86%{
+		left: -400%;
+    }
+    47.62%{
+		left: -500%;
+	}
+	52.38%{
+		left: -500%;
+    }
+    57.14%{
+		left: -600%;
+	}
+	61.90%{
+		left: -600%;
+	}
+	66.67%{
+		left: -700%;
+	}
+	71.43%{
+		left: -700%;
+	}
+    76.19%{
+		left: -800%;
+    }
+    80.95%{
+		left: -800%;
+	}
+	85.71%{
+		left: -900%;
+    }
+    90.48%{
+		left: -900%;
+    }
+    95.24%{
+		left: -1000%;
+    }
+    100.00%{
+		left: -1000%;
+    }
+   
+}
+
+
+/* ens multimarcas */
+   /* mapa */
+
+   .mapa{
+       width: 90%;
+       margin: 0 auto;
+   }
+
+.mapcaja {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 70px;
+    width: 300px;
+    color: #626262;
+    grid-template-columns: 30px 60%;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    align-content: center;
+    justify-content: center;
+    justify-items: start;
+   }
+
+   .mapag{
+       width: 90%;
+       display: block;
+       margin: 0 auto;
+   }
+
+   .mapspan{
+       margin-bottom: 20px;
+       display: block;
+    
+   }
+
+
+
+
+
+    
+
+
+
+
+/*  */
+/*  */
+
+
+
+@media screen and (min-width: 768px){
+    .containernav{
+    
+        display: grid;
+        height: 50px;
+        width: 90%;
+        max-width: 1024px;
+        margin: 0 auto;
+       
+    
+}
+
+
+.containers:nth-child(1){
+    background: url(img/paginas-web-Quito.png);
+    background-size: cover;
+    transition: 1s ease-in-out 0s;
+    z-index: 1;
+}
+
+
+.cardnegocio {
+
+    bottom: 30px;
+    right: 50px;
+   
+}
+
+.containermovil{
+    display: none;
+}
+
+
+.frasebtn{
+    max-width: 1024px;
+    width: 90%;
+    display: grid;
+    align-content: center;
+    color: white;
+    margin: 0 auto;
+    
+    text-align: center;
+    justify-content: left;
+    justify-items: left;
+}
+
+.layer{
+   
+    background: linear-gradient(130deg, rgba(0,158,206,1)0%, rgba(255,255,255,0.01) 65%);
+    
+
+}
+
+
+a.linknav:hover {
+    color: #ff9e00;
+    font-size: bold;
+    font-weight: bold;
+}
+
+a.linknav {
+    color: white;
+    text-decoration: none;
+}
+
+
+}
+

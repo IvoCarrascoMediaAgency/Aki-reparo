@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
+	 height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="Capa_1">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.4897" y1="260.1787" x2="477.5107" y2="260.1787">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.0798" style="stop-color:#F9F9F9"/>
+			<stop  offset="0.1819" style="stop-color:#EAEAEA"/>
+			<stop  offset="0.296" style="stop-color:#CFCFCF"/>
+			<stop  offset="0.4179" style="stop-color:#ABABAB"/>
+			<stop  offset="0.5333" style="stop-color:#828282"/>
+			<stop  offset="0.5655" style="stop-color:#919292"/>
+			<stop  offset="0.641" style="stop-color:#B0B0B1"/>
+			<stop  offset="0.72" style="stop-color:#C8C8C9"/>
+			<stop  offset="0.8029" style="stop-color:#D9DADA"/>
+			<stop  offset="0.8924" style="stop-color:#E3E4E5"/>
+			<stop  offset="1" style="stop-color:#E6E7E8"/>
+		</linearGradient>
+		
+			<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" stroke="#000000" stroke-width="8.5403" stroke-miterlimit="10" d="
+			M31.269,272.511c-13.679-5.563-9.146-17.971-1.424-21.43c35.538-15.92,160.702-51.631,213.359-69.54
+			c3.298-1.121,10.949-1.265,15.23,0.345c43.862,16.501,196.186,60.855,211.953,67.303c8.459,3.458,11.413,17.008-2.631,21.918
+			c-37.813,13.215-172.712,57.98-204.779,67.805c-3.544,1.086-19.163,1.111-25.417-0.644
+			C199.094,327.465,60.353,284.34,31.269,272.511z"/>
+		<g>
+			<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-width="1.6014" stroke-miterlimit="10" d="
+				M324.193,226.233h11.263l-4.102,22.688c0,0,2.032-2.471,6.888-3.639c12.625-3.026,20.823,8.788,20.085,21.068
+				c-1.339,22.149-27.016,28.916-33.436,15.475c-0.13,1.111-0.887,5.735-0.887,5.735l-9.9-0.292L324.193,226.233z M328.944,266.042
+				c-1.804,12.984,17.333,16.597,19.735,0C350.579,252.921,331.545,247.309,328.944,266.042z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-width="1.6014" stroke-miterlimit="10" d="
+				M160.015,232.61c-1.03,5.362-3.163,20.074-3.163,20.074l15.458-0.204l3.178-19.781l12.349,0.077l-7.545,53.163l-13.786,0.076
+				l3.011-18.989h-15.863l-2.867,19.655h-12.913c0,0,5.408-36.675,8.984-53.982C151.018,232.568,155.9,232.407,160.015,232.61z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-width="1.6014" stroke-miterlimit="10" d="
+				M222.45,250.563l1.07-3.976l8.62,0.019c0,0-4.455,26.11-5.612,40.664c-3.743,0-11.228,0-11.228,0s0.39-2.454,0.56-3.332
+				c-2.403,1.828-4.845,4.044-8.423,4.666c-30.898,5.362-22.379-51.869,8.987-42.653
+				C218.342,246.784,221.134,248.817,222.45,250.563z M199.582,269.942c0.471,4.746,5.295,7.922,9.543,7.33
+				c5.907-0.824,12.576-11.415,6.821-18.418C208.936,250.319,198.688,260.918,199.582,269.942z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-width="1.6014" stroke-miterlimit="10" d="
+				M272.949,261.741l-11.075,0.091c0,0-1.521-5.8-5.574-5.923c-15.289-0.463-18.584,21.42-5.313,21.363
+				c4.054-0.018,8.983-5.999,8.983-5.999l11.533-0.278c0,0-4.644,14.995-18.583,16.474c-12.575,1.336-20.873-5.39-20.78-17.676
+				c0.106-13.771,11.724-25.073,26.145-24.512C272.011,245.819,272.949,261.741,272.949,261.741z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000000" stroke-width="1.6014" stroke-miterlimit="10" d="
+				M313.441,269.326h-28.294c-0.222,12.34,14.696,7.962,15.628,4.446c0,0,7.87,0.112,9.9,0.09
+				c-4.09,17.437-37.37,20.593-36.489-4.536c0.571-16.27,13.984-24.803,21.35-24.803
+				C319.185,244.523,313.441,269.326,313.441,269.326z M287.719,261.745c4.945-0.004,11.702,0.106,16.179-0.052
+				C304.826,252.806,290.552,252.3,287.719,261.745z"/>
+		</g>
+	</g>
+</g>
+<g id="Capa_2">
+</g>
+</svg>
