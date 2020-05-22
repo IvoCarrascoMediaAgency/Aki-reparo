@@ -214,3 +214,68 @@ $('.menu').on('click', function(){
 $('.num').counterUp({delay:10,time:1000});
 
 
+// new menu
+
+
+$(".submenuar").click(function(){ 
+  $(this).children("ul").slideToggle(); 
+  $(".sub3,.sub4").children("ul").slideUp();
+  
+  var Grupo = $(this).parent();
+  var posicion = $(this).index();
+  Grupo.children().each(function (index) {
+   if (index != posicion)
+    $(this).children("ul").slideUp("slow");
+  });
+ })
+ 
+  $("ul").click(function(p){ 
+  p.stopPropagation(); 
+ });
+
+
+ $(".sub3").click(function(){
+  $(".sub4").children("ul").slideUp();
+  $(".sub3").children("ul").slideToggle();
+
+  })
+
+  $(".sub4").click(function(){
+      $(".sub3").children("ul").slideUp();
+      $(".sub4").children("ul").slideToggle();
+
+  })
+
+
+  // menu interactivo
+
+  
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("menuar").style.top = "0";
+  } else {
+    document.getElementById("menuar").style.top = "-95px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+$(document).ready(function(){
+ 
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.menuar').addClass('colormenu1');
+      // $('.menu').addClass('colormenu2');
+     
+	
+		} else {
+			$('.menua').removeClass('colormenu1');
+      // $('.menu').removeClass('colormenu2');
+     
+		}
+	});
+ 
+});
+
+
