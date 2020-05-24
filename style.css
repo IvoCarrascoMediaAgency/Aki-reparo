@@ -351,6 +351,7 @@ span.spanfrase {
 
 
 
+
 /* new slider */
 .contenedor-slider {
     margin: auto;
@@ -366,7 +367,7 @@ span.spanfrase {
   .slider {
     display: flex;
     width: 500%;
-    height: 90%;
+    height: 100%;
   }
   
   .slider__section {
@@ -379,28 +380,61 @@ span.spanfrase {
 .section1{
     
     /* background:  url(img/reparacion-mantenimiento-servicio-tecnico-de-lavadoras-secadoras-refrigeradoras-y-calefones.jpg) , rgba(0, 0, 0, 0.35) ; */
-    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/servicio-tecnico-a-domicilio-en-Quito.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .35), rgba(0, 0, 0, .35)), url(img/reparacion-mantenimiento-y-servicio-tecnico-a-domicilio-en-Quito.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-size: cover;
+    background-position-y: -35px;
     background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), -webkit-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), -ms-linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5));
-  }
+  
 
 
 }
+
+
 .section2{
-    background: url(https://www.asociacionaden.com/wp-content/uploads/2018/03/Li%CC%81nea-blanca-600x301-600x301.jpg);
-
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/mantenimiento-y-repacion-en-Quito-24-7.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    background-position-y: -35px;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), -webkit-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), -ms-linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  
 
 }
+
 .section3{
-    background: url(https://www.asociacionaden.com/wp-content/uploads/2018/03/Li%CC%81nea-blanca-600x301-600x301.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/repuestos-electrodomésticos-todas-las-marcas.jpeg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    background-position-y: -35px;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), -webkit-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), -ms-linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  
 
 
 }
-.section4{
-    background: url(https://www.asociacionaden.com/wp-content/uploads/2018/03/Li%CC%81nea-blanca-600x301-600x301.jpg);
 
+
+.section4{
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .35), rgba(0, 0, 0, .35)), url(img/servicio-tecnico-de-lavadoras-secadoras-refrigeradoras-calefones-en-Cumbaya.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    background-position-y: -35px;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), -webkit-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), -ms-linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5));
+  
+
+}
+
+.section5{
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .35), rgba(0, 0, 0, .35)), url(img/servicio-tecnico-autorizado-multimarcas-de-electrodomésticos-Quito.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover;
+    background-position-y: -35px;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), -webkit-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), -ms-linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)), linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5));
+  
 
 }
   
@@ -479,9 +513,7 @@ span.spanfrase {
 }
 
 .whatakidiv{
-    display: grid;
-    align-items: flex-end;
-    justify-items: center;
+margin: auto;
 }
 
 /* boton  */
