@@ -988,22 +988,6 @@ margin: auto;
     color: white;
 }
 
-.cerrar{
-	margin-top: 5px;
-    position: absolute;
-    top: 0;
-    right: 5px;
-	
-}
-
-
-.cerrar{
-	margin-top: 20px;
-	position: absolute;
-    top: 0;
-    right: 20px;
-	
-}
 
 
 
@@ -1710,6 +1694,211 @@ a.formdatosa{
     margin: auto;
 
 }
+
+/* modal */
+
+
+.modal{
+	display: none;
+}
+
+.modal:target {
+	display: grid;
+	position: fixed;
+	background: rgba(255,255,255,1);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1050;
+	overflow: scroll;
+}
+
+.modal2{
+	align-self: center;
+    justify-self: center;
+    margin-top: 20px;	
+}
+
+.modal2 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #1d9cd8;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.fantasma {
+    width: 100%;
+    height: 200px;
+}
+.datoss p {
+    color: rgba(0,0,0,.3);
+    font-size: 13px;
+    font-family: 'Arimo', sans-serif;
+    text-transform: initial;
+
+    
+}
+
+
+
+
+.cerrar a{
+	
+    text-decoration: none;
+    border-radius: 50%;
+   
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    margin: auto;
+    font-size: 0.7em;
+    text-align: center;
+    display: block;
+}
+
+.icon-x:before {
+    content: "\ea0f";
+}
+
+
+::-webkit-input-placeholder { color: #1d9cd8; } 
+
+:-moz-placeholder { /* Firefox 18- */ color: #1d9cd8; } 
+
+::-moz-placeholder { /* Firefox 19+ */ color: #1d9cd8; } 
+
+:-ms-input-placeholder { color: #1d9cd8; }
+
+
+::-webkit-select-placeholder { color: #1d9cd8; } 
+
+
+.pgracias{
+	color: #ff9e00;
+	text-align: center;
+	line-height: 20px;
+	margin: 50px 0;
+}
+
+.pgracias2{
+	margin-top: 0;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+    overflow: hidden;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	-webkit-appearance: none;
+}
+
+input, textarea {
+  
+   
+    padding: 7px;
+    font-size: 1em;
+ 
+    /* background: rgba(255,255,255, .9); */
+    color: #999;
+    border: none;
+    height: 40px;
+    margin-bottom: 15px;
+    background: rgba(255,255,255,.3);
+    -webkit-appearance: none;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+.sumitb{
+    color: #e12327;
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    border: 1px solid #e12327;
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+    transition: 0.5s ease-out;
+   height: 40px;
+   box-shadow: 10px 10px 18px -11px rgba(0,0,0,1);
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -webkit-appearance: none;
+}
+
+.sumitb:hover{
+    color: #ff9e00;
+    background: white;
+    font-weight: bold;
+
+}
+
+
+
+select{
+	width: 100%;
+    margin-bottom: 15px;
+    color: #1d9cd8;
+    border: none;
+    padding: 7px;
+    font-size: 1em;
+    height: 50px;
+    background: rgba(255,255,255,.3);
+   -webkit-appearance: none;
+   border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+option{
+	color: rgb(0, 0, 0,1);;
+    -webkit-appearance: none;
+}
+
+.date1 {
+    width: 100%;
+}
+
+.date1 span {
+    color: #626262;
+}
+
+input[type="date"] {
+    color: #1d9cd8;
+    width: 100%;
+    background: rgba(0,0,0,0.04);
+}
+
+input[type="time"] {
+    color: #1d9cd8;
+    background: rgba(0,0,0,0.04);
+}
+
+.cerraraki a{
+    color: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,.03);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* end modal */
 
 
 
