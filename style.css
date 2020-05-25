@@ -4,6 +4,7 @@ html{
     
 	font-size: 16px;
     box-sizing: border-box;
+    overflow-x: hidden;
     
 	
 }
@@ -1841,7 +1842,7 @@ input, textarea {
 }
 
 .sumitb:hover{
-    color: #ff9e00;
+    color: #1d9cd8;
     background: white;
     font-weight: bold;
 
