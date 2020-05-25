@@ -2053,15 +2053,15 @@ span.icon-subm {
 
 
     .menuar{
-        position: absolute;
         top:50px;
         left: 0;
         width: 100%;
-        transform:translate(100%,0);
+       opacity: 0;
      
         transition: all 0.3s;
         z-index: 40;
         margin-top: 60px;
+        position: absolute;
 
     }
 
@@ -2097,7 +2097,8 @@ span.icon-subm {
     }
 
     #btn-menuar:checked ~ .menuar{
-        transform: translateY(0);
+        opacity: 1;
+        
     }
 
     /* .menuar ul ul {
