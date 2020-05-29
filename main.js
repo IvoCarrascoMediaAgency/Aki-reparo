@@ -139,7 +139,9 @@ $('.menu').on('click', function(){
     
   
     
-      
+      // 
+
+
 
 
   
@@ -211,7 +213,7 @@ $('.menu').on('click', function(){
 //  contador de clientes
 
 
-$('.num').counterUp({delay:10,time:1000});
+$('.num').counterUp({delay:1,time:200});
 
 
 // new menu
